@@ -318,6 +318,188 @@ footer .ctn-footer {
     font-weight: 200;
 }
 
+.download--zone {
+    margin: 120px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--main-text-color);
+    border-radius: 12px;
+}
+
+.download--title {
+    color: var(--main-text-color);
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 4px 12px;
+}
+
+.supported--versions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 28px 40px 40px;
+}
+
+.support--left {
+    max-width: 65%;
+}
+
+.support--info {
+    font-size: 1.2rem;
+    color: var(--extra-action-color);
+    margin-bottom: 24px;
+}
+
+.support--info span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.support--left ul {
+    list-style: none;
+}
+
+.warning--text {
+    color: var(--main-text-color);
+    margin: 12px 0;
+    font-size: 1rem;
+    max-width: 80%;
+}
+
+.warning--text span {
+    color: var(--extra-text-color);
+    font-weight: 600;
+}
+
+.warning--text i {
+    margin-right: 8px;
+    font-size: 1.4rem;
+    color: var(--extra-text-color);
+}
+
+.support--left h3 {
+    margin-top: 40px;
+    color: var(--main-text-color);
+}
+
+.discord-btn {
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.support--left a {
+    text-decoration: none;
+    color: #5865F2;
+    max-width: 300px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    border: 2px solid #5865F2;
+    border-radius: 12px;
+    transition: all .3s ease;
+}
+
+.support--left a i {
+    font-size: 32px;
+}
+
+.support--left a:hover {
+    transform: scale(1.03);
+}
+
+.support--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.support--1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid var(--extra-text-color);
+    border-radius: 16px;
+}
+
+.support--1 h2 {
+    color: var(--extra-text-color);
+    font-size: 1.5rem;
+}
+
+.support--1 .download--btns {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.support--1 .download--btns a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.download--btn--drive {
+    color: #FFD04B;
+}
+
+.download--btn--mediafire {
+    color: #0045AD;
+}
+
+.download--btn--qiwi {
+    color: #9487fb;
+}
+
+.support--1 .download--btns a:hover {
+    opacity: .8;
+}
+
+.support--2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid var(--extra-text-color);
+    border-radius: 16px;
+}
+
+.support--2 h2 {
+    color: var(--extra-text-color);
+    font-size: 1.3rem;
+}
+
+.support--2 .download--btns {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.support--2 .download--btns a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.support--2 .download--btns a:hover {
+    opacity: .8;
+}
+
+.soon {
+    font-size: 4rem;
+    display: flex;
+    color: var(--extra-text-color);
+    justify-content: center;
+    margin: 40px 0;
+}
+
 /*
 @media(max-width: 767px){
   .footer-col{
